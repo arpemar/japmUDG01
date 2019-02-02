@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("img/background.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 60px;
+    background-color: rgba(255,255,255,0.69);
+    margin-top: 15px;
+    font-size: 30px;
+    padding: 10px;
+    transition: all 1s;
+}
+
+header:hover {
+    transform: rotate(5grad) scale(1.2);
+
+}
+
+article{
+    float: left;
+    border-radius: 40px;
+    padding: 12px;
+    margin-top: 30px;
+    background-color: rgba(255,255,255,0.69);
+}
+
+article section{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 2px;
+    height: auto;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+    float: left;
+    width: 100%;
+}
+
+img{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    border-width: 2px;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 20px;
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(0.8);
+    border-style: none;
+
+}
+
+article section:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: green;
+}
+
+.leftMenu{
+    width: 25%;
+    height: auto;
+}
+
+.mainMenu{
+    width: 70%;
+    height: auto;
+    margin-left: 5%;
+    clear: right;
+    margin-bottom: 30px;
+}
+
+p{
+    text-align: justify;
+}
+
+h3{
+    color: saddlebrown;
+}
+
+footer{
+    clear: both;
+    background-color: rgba(255,255,255,0.69);
+    margin-top: 30px;
+
+    border-style: dashed;
+    border-color: blue;
+    border-radius: 50px;
+    height: 80px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+footer a{
+    color: blue;
+    transition: all 1s;
+    text-decoration: none;
+}
+
+footer a:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
